@@ -1,10 +1,9 @@
 ---
 ---
+{% include code/license.css %}
 
-{% include code/license.css %};
-
-@import "variables";
 @import "mixins";
+@import "variables";
 @import "path";
 @import "core";
 @import "larger";
