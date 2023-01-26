@@ -1,0 +1,189 @@
+basic:
+  name: Zachary Yang
+  title: NLP Research Scientist
+  avatar:
+    display: false
+    path: profile.png
+
+contact:
+  location:
+  email: zachary.yang@mail.mcgill.ca
+  phone:
+  website:
+  wechat:
+  whatsapp:
+  telegram:
+  github: https://github.com/RSTZZZ
+  gitlab:
+  bitbucket:
+  googlescholar: https://scholar.google.ca/citations?user=ljOxbowAAAAJ&hl=en&oi=ao
+  researchgate:
+  linkedin: https://www.linkedin.com/in/zachary-y-647209103/
+  medium:
+  twitter:
+  stackoverflow:
+  quora:
+  goodreads:
+
+profile:
+  display: true
+  title: Profile
+  details: |
+    As a graduate researcher with expertise in NLP and ML, I am currently interning at Ubisoft where I am responsible for researching and developing large language models for classifying harmful comments in in-game chats. My work includes determining the generalization potential of these models to different games, data wrangling, incorporating techniques for continuous learning, and implementing a systematic experiment pipeline to improve my research. My research is focused on applied NLP such as topic modeling and multi-label classification with noisy labels. I possess expertise in Python and related machine learning and deep learning frameworks, with a proven track record of solid practical understanding. Furthermore, I demonstrate strong collaboration skills and can effectively communicate my work to both technical and non-technical stakeholders.
+
+experiences:
+  display: true
+  title: Experiences
+  items:
+    - role: R&D NLP Intern
+      time: 2022.05 - Present
+      company: Ubisoft (La Forge)
+      tag: NLP
+      location: Montreal
+      details: |
+        Experience in this company:
+        + Research and development of deep NLP models for classifying harmful comments in in-game chats, determining their generalization potential to different games, and improving model recall by 82% while maintaining precision at 82%.
+        + Experimentation on determining the amount of retraining or fine-tuning necessary for candidate models to adapt to new game vocabularies.
+        + Documenting and sharing research findings internally, including NLP techniques used, performance evaluation and insights gained to both technical and non-technical stakeholders.
+        + Participation in data selection and pre-processing of labeled data, including sampling chat lines to be annotated, text cleaning, and aggregating weak and noisy labels.
+        + Incorporation of continuous learning techniques to minimize model drift and improve the final model's ability to detect harmful messages using active learning and self-learning.
+        + Proposing and implementing a systematic experiment pipeline for increased code readability, complete experiment reproducibility, and experiment logging.
+
+    - role: Graduate Research Assistant
+      time: 2021.01 - Present
+      company: Mila - Complex Data Lab
+      tag: NLP
+      location: Montreal
+      details: |
+        Experience in this company:
+        + Conducted research on COVID-19 topic modeling with LDA, topic keywords, and BERT Language model on a large dataset of over 387M Twitter Tweets and 7M Parler post
+        + Trained a state-of-the-art Roberta-large LM with an accuracy of 90% on politically explicit user profile descriptions to detect user party affiliations.
+        + Utilized machine learning techniques to train a random forest model with an accuracy of 94% to predict user party from COVID-19 tweets.
+        + Geolocated 7.7M Twitter users with high precision by extracting proper locations with named-entity recognition on user provided locations and running them through OSM and ArcGIS API.
+        + Matched 32K Twitter users to US Voter Registration Records based on matching names and address, demonstrating expertise in data matching and integration.
+        + Applied bootstrapping methods to approximate variation of cluster distances (C-index, Silhouette score) to measure partisan polarization for large-scale data (over 80K users)
+        + Designed multiple visualizations on Bokeh and Matplotlib for daily and state-wide partisan polarization on COVID-19 topics of Lockdown, Mask and Vaccine, demonstrating expertise in data visualization.
+
+projects:
+  display: false
+  title: Projects
+  intro: |
+    This is all the projects I'm involved in.
+
+  items:
+    - name: Foo
+      link: https://www.google.com
+      details: |
+        Project Foo's detail, you can write markdown format text.
+
+    - name: Bar
+      link:
+      details: |
+        Project Bar's detail, you can write markdown format text.
+
+skills:
+  display: false
+  title: Skills
+  details: |
+    Here is my skills:
+    + First
+    + Second
+
+    ...
+
+  levels:
+    - name: Skill A
+      level: 90
+    - name: Skill B
+      level: 80
+    - name: Skill C
+      level: 70
+
+education:
+  display: true
+  title: Education
+  items:
+    - university: McGill University
+      time: 2020 - Present
+      major: Computer Science (Machine Learning)
+      degree: Doctoral
+      details: |
+
+    - university: University of Toronto
+      time: 2015 - 2019
+      major: Computer Science
+      degree: Bachelor
+      details: |
+
+certificates:
+  display: false
+  title: Certificates
+  items:
+    - name: Course Foo
+      authority: Coursera
+      time: 2020
+      link:
+      details: |
+        It's my Course Foo certificate by coursera.
+    - name: Course Bar
+      authority: Coursera
+      time: 2020
+      link: https://www.google.com
+      details: |
+
+publications:
+  display: true
+  title: Publications
+  intro: |
+
+  items:
+    - title: "Online Partisan Polarization of COVID-19"
+      authors: Z.Yang, A. Imouza, K. Pelrine, S. Levy, J. Liu, G. Desrosiers-Brisebois, J. Godbout, A. Blais, R. Rabbany
+      conference: IEEE 2021,pp.893-901,(ICDMW-SDM)
+    - title: "OPPVIS: Visualizing Online Partisan Polarization on COVID-19"
+      authors: Z.Yang, A. Imouza, K. Pelrine, S. Levy, J. Liu, G. Desrosiers-Brisebois, J. Godbout, A. Blais, R. Rabbany
+      conference: IEEE (VIS) 2021
+    - title: "Ebbs and Flows of Polarization During a Political Campaign"
+      authors: K. Pelrine, A. Imouza, G. Desrosiers-Brisebois, Z.Yang, S. Levy, A. Feizi, J. Liu, A. Blais, J. Godbout, R. Rabbany.
+      conference: CPSA, 2021
+
+patents:
+  display: false
+  title: Patents
+  details: |
+    This is all my patents.
+    + 2020\. A patent name is here. CN123456, filed May 15, 2020, and issued July 20, 2020.
+
+languages:
+  display: false
+  title: Languages
+  items:
+    - idiom: Chinese
+      level: Native
+    - idiom: English
+      level: Professional
+
+interests:
+  display: false
+  title: Interests
+  items:
+    - item: Reading
+      link:
+    - item: Cooking
+      link:
+
+evaluation:
+  display: false
+  title: Self-evaluation
+  details: |
+    Here is my self evaluation.
+    + First
+    + Second
+
+    ...
+
+footer:
+  display: true
+
+close: >
+  Sorry, my resume has been hidden.
